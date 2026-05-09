@@ -35,7 +35,7 @@ int main()
 {
     yyin = fopen("input.c", "r");
     if(!yyin) {
-        printf("Error: input.c file pawa jayni!\n");
+        printf("Error: input.c file didn't found!\n");
         return 1;
     }
     yylex();
